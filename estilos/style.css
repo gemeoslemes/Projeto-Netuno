@@ -1019,7 +1019,7 @@ h1.titulo-jornada {
         width: 12%;
     }
 
-    @media (min-width: 1360px) {
+    @media (max-width: 1380px) {
         html, body {
             width: 100%;
         }
