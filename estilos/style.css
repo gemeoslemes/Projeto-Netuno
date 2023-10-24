@@ -2085,3 +2085,32 @@ h1.titulo-jornada {
         width: 12%;
     }
 }
+
+@media screen and (min-width: 1601px) and (max-width: 1680px) {
+    html, body {
+        width: 100%;
+    }
+
+    .imagem-dev {
+        width: 35%;
+        top: -100px;
+    }
+
+    .projeto-principal {
+        top: 165%;
+        width: 30%;
+    }
+
+    .texto-problema-principal {
+        top: 240%;
+        width: 30%;
+    }
+
+    .containers {
+        top: 285.5%;
+    }
+
+    .cadastro-seletivo p {
+        font-size: 16px;
+    }
+}
