@@ -27,7 +27,6 @@ body {
     background-color: var(--cor-azul);
 }
 
-
 #cabecalho {
     display: flex;
     justify-content: center;
