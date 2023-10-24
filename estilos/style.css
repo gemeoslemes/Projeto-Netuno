@@ -754,7 +754,7 @@ h1.titulo-jornada {
     font-weight: 800;
 } 
 
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1400px) {
     html, body {
         width: 100%;
     }
@@ -1017,5 +1017,11 @@ h1.titulo-jornada {
     .rodape-processo-seletivo {
         margin: 0 -30px 0 80px;
         width: 12%;
+    }
+
+    @media (min-width: 1500px) and (max-width: 1700px) {
+        html, body {
+            width: 100%;
+        }
     }
 }
