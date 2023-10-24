@@ -754,7 +754,7 @@ h1.titulo-jornada {
     font-weight: 800;
 } 
 
-@media (min-width: 1300px) and (max-width: 1400px) {
+@media (min-width: 1300px) and (max-width: 1410px) {
     html, body {
         width: 100%;
     }
@@ -1055,7 +1055,7 @@ h1.titulo-jornada {
     }
 }
 
-@media (max-width: 1295px) {
+@media screen and (min-width: 1295px) {
 
     html, body {
         width: 100%;
@@ -1073,7 +1073,7 @@ h1.titulo-jornada {
     height: 675px;
     width: 30%;
     top: 27%;
-}
+    }
 
     .formulario-dados {
         height: 150px;
@@ -1323,4 +1323,23 @@ h1.titulo-jornada {
         width: 12%;
     }
 
+}
+
+@media screen and (max-width: 1400px) {
+    .projeto-principal {
+        top: 135%;
+    }
+
+    .projeto-paragrafo {
+        width: 90%;
+    }
+    
+    .projeto-paragrafo-negrito {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .containers {
+        top: 255%;
+    }
 }
