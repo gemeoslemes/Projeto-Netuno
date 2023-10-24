@@ -754,7 +754,7 @@ h1.titulo-jornada {
     font-weight: 800;
 } 
 
-@media (min-width: 1200px) and (max-width: 1400px) {
+@media (min-width: 1300px) and (max-width: 1400px) {
     html, body {
         width: 100%;
     }
@@ -1019,9 +1019,37 @@ h1.titulo-jornada {
         width: 12%;
     }
 
-    @media (min-width: 1500px) and (max-width: 1700px) {
+    @media (min-width: 1360px) {
         html, body {
             width: 100%;
+        }
+
+        #cabecalho a{
+            font-size: 16px;
+        }
+
+        .projeto-principal {
+            top: 190%;
+        }
+
+        .texto-problema-principal {
+            top: 300%;
+        }
+
+        .problema-selector-fundo {
+            height: 127%;
+        }
+
+        .containers {
+            top: 368%;
+        }
+
+        .selection-jornada {
+            padding: 150px 0 0 0;
+        }
+
+        .jornada {
+            padding: 250px 0 0 0;
         }
     }
 }
