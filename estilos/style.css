@@ -758,7 +758,7 @@ h1.titulo-jornada {
 } 
 
 
-@media screen and (max-width: 1366px) and (min-width: 1300px) {
+@media  (max-width: 1366px) and (min-width: 1300px) {
     html, body {
         width: 100%;
     }
@@ -1020,7 +1020,7 @@ h1.titulo-jornada {
 
 }
 
-@media screen and (max-width: 1380px) and (min-width: 1370px) {
+@media (max-width: 1380px) and (min-width: 1370px) {
     html, body {
         width: 100%;
     }
@@ -1261,7 +1261,7 @@ h1.titulo-jornada {
 
 }
 
-@media screen and (max-width: 1024px) and (min-width: 810px) {
+@media (max-width: 1024px) and (min-width: 810px) {
     html, body {
         width: 100%;
     }
@@ -1514,7 +1514,7 @@ h1.titulo-jornada {
     }
 }
 
-@media screen and (max-width: 800px) {
+@media (max-width: 800px) and (min-width: 700px){
     html, body {
         width: 100%;
     }
