@@ -758,7 +758,7 @@ h1.titulo-jornada {
 } 
 
 
-@media screen and (max-width: 1366px) {
+@media screen and (max-width: 1366px) and (min-width: 1300px) {
     html, body {
         width: 100%;
     }
@@ -1020,7 +1020,7 @@ h1.titulo-jornada {
 
 }
 
-@media screen and (max-width: 1380px) {
+@media screen and (max-width: 1380px) and (min-width: 1370px) {
     html, body {
         width: 100%;
     }
@@ -1261,7 +1261,7 @@ h1.titulo-jornada {
 
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) and (min-width: 810px) {
     html, body {
         width: 100%;
     }
@@ -1532,7 +1532,7 @@ h1.titulo-jornada {
     #formulario {
         height: 450px;
         width: 32%;
-        top: 35%;
+        top: 19%;   
     }
 
     .formulario-dados {
@@ -1642,10 +1642,12 @@ h1.titulo-jornada {
 
     .imagem-dev {
         width: 40%;
+        padding-top: 150px;
     }
 
     .projeto-principal {
-        top: 160%;
+        padding-top: 220px;
+        width: 30%;
     }
 
     .projeto-titulo {
@@ -1658,14 +1660,17 @@ h1.titulo-jornada {
     }
 
     .texto-problema-principal {
-        padding-top: 100px;
+        padding-top: 350px;
+        width: 30%;
     }
 
     .texto-problema p {
+        padding: 0 0 10px 0;
         font-size: 11px;
     }
 
     .texto-problema-profissionais {
+        padding: 10px 0 0 0;
         font-size: 9px;
     }
 
@@ -1674,7 +1679,16 @@ h1.titulo-jornada {
     }
 
     .titulo-problema {
+        margin: 0;
         font-size: 22px;
+    }
+
+    .problema-selector {
+        height: 400px;
+    }
+
+    .containers {
+        bottom: 632px;
     }
 
     .containers-solucao {
@@ -1731,7 +1745,7 @@ h1.titulo-jornada {
     }
 
     .jornada {
-        padding: 180px 0 0 0;
+        padding: 100px 0 0 0;
         justify-content: center;
         align-items: center;
     }
