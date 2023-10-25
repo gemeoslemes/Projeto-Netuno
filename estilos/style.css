@@ -1532,7 +1532,7 @@ h1.titulo-jornada {
     #formulario {
         height: 450px;
         width: 32%;
-        top: 19%;   
+        margin-top: 50px;   
     }
 
     .formulario-dados {
@@ -1595,12 +1595,14 @@ h1.titulo-jornada {
     }
 
     .formulario-experiencia {
+        padding: 10px 0 0 0;
         margin: 0;
     }
 
     .paragrafo-experiencia {
         font-size: 10px;
-        padding: 5px 0 0 0;
+        padding: 0;
+        margin: 0;
     }
 
     .experiencia label {
