@@ -757,63 +757,74 @@ h1.titulo-jornada {
     font-weight: 800;
 } 
 
-/*está certo*/
-@media (max-width: 999px) and (min-width: 901px) {
+@media (max-width: 700px) and (min-width: 601px){
     html, body {
         width: 100%;
     }
 
     #cabecalho a {
-        font-size: 14px;
-        padding: 5px 25px;
+        font-size: 11px;
+        padding: 5px 10px;
         margin: 0;
     }
 
     #cabecalho img {
-        width: 150px;
+        width: 100px;
+    }
+
+    .banner-topo {
+        width: 100%;
+        left: 0%;
     }
 
     #formulario {
-        height: 550px;
-        width: 35%;
-        top: 25%;
+        height: 450px;
+        width: 40%;  
+        left: 32%;
+        top: 63%; 
     }
 
     .formulario-dados {
-        height: 150px;
+        height: 120px;
     }
     
     .titulo-formulario {
-        font-size: 15px;
-        padding: 20px 0 10px 0;
+        font-size: 12px;
+        padding: 15px 0 10px 0;
         margin: 0 0 0 25px;
     }
 
     .paragrafo-dados {
-        font-size: 10px;
+        font-size: 8px;
         margin: 0 0 0 25px;
     }
 
     .input-nome {
         width: 85%;
         height: 30px;
+        font-size: 10px;
+        background-size: 15px 15px;
         background-color: var(--cor-branca);
     }
 
     .input-email {
         width: 85%;
         height: 30px;
+        font-size: 10px;
+        background-size: 15px 15px;
         background-color: var(--cor-branca);
     }
 
     .select-estado {
         width: 85%;
         height: 30px;
+        font-size: 10px;
+        background-size: 15px 15px;
         background-color: var(--cor-branca);
     }
 
     .formulario-conhecimento {
-        font-size: 11px;
+        font-size: 10px;
         height: 110px;
     }
 
@@ -833,11 +844,14 @@ h1.titulo-jornada {
     }
 
     .formulario-experiencia {
-        padding-top: 8px;
+        padding: 10px 0 0 0;
+        margin: 0;
     }
 
     .paragrafo-experiencia {
         font-size: 10px;
+        padding: 0;
+        margin: 0;
     }
 
     .experiencia label {
@@ -854,126 +868,141 @@ h1.titulo-jornada {
     }
 
     p#paragrafo-obrigatorio {
-        margin: 10px 0 0 0;
+        margin: 5px 0 0 0;
         font-size: 8px;
+        width: 200px;
     }
 
     .btn-enviar {
         padding: 0;
-        font-size: 14px;
-        height: 30px;
+        margin: 0;
+        font-size: 12px;
+        height: 25px;
+        width: 200px;
     }
 
     .paragrafo-termos {
-        font-size: 8px;
-    }
-
-    .problema-selector {
-        height: 500px;
-    }
-
-    .imagem-dev {
-        width: 45%;
-        top: -10%;
-        left: 10%;
-    }
-
-    .projeto-principal {
-        padding-top: 28%;
-        width: 30%;
+        padding-top: 5px;
+        width: 175px;
+        font-size: 6px;
     }
 
     .projeto-seletor {
-        height: 400px;
+        height: 800px;
+    }
+
+    .imagem-dev {
+        width: 50%;
+        padding-top: 650px;
+        left: 5%;
+    }
+
+    .projeto-principal {
+        padding-top: 220px;
+        width: 35%;
     }
 
     .projeto-titulo {
-        font-size: 30px;
+        font-size: 22px;
     }
 
     .projeto-paragrafo {
         width: 100%;
-        font-size: 12px;
+        font-size: 9px;
+    }
+
+    .problema-selector-fundo img {
+        width: 40%;
+        left: 10%;
     }
 
     .texto-problema-principal {
-        bottom: 500px;
-        width: 30%;
-    }
-
-    .img-container {
-        width: 40%;
-        left: 12%;
+        padding-top: 350px;
+        width: 35%;
     }
 
     .texto-problema p {
-        font-size: 14px;
+        padding: 0 0 10px 0;
+        font-size: 10px;
     }
 
     .texto-problema-profissionais {
-        font-size: 11px;
+        padding: 10px 0 0 0;
+        font-size: 8px;
     }
 
     .texto-problema-exterior {
-        font-size: 11px;
+        font-size: 7px;
+    }
+
+    .titulo-problema {
+        margin: 0;
+        font-size: 22px;
+    }
+
+    .problema-selector {
+        height: 360px;
     }
 
     .containers {
-        bottom: 440px;
+        bottom: 625px;
     }
 
     .containers-solucao {
         width: 300px;
-        height: 150px;
+        height: 80px;
     }
 
     .container-titulo-um {
-        font-size: 25px;
+        font-size: 15px;
         left: 6%;
     }
 
     .numero-um {
+        font-size: 55px;
         left: 14%;
     }
 
     .container-paragrafo-um {
         width: 85%;
-        font-size: 12px;
+        font-size: 9px;
         font-weight: 500;
     } 
 
     .container-titulo-dois {
-        font-size: 25px;
-        left: 40%;
+        font-size: 15px;
+        left: 41%;
     }
 
     .numero-dois {
+        font-size: 55px;
         left: 47%;
     }
 
     .container-paragrafo-dois {
         width: 85%;
-        font-size: 12px;
+        font-size: 9px;
         font-weight: 500;
     } 
 
     .container-titulo-tres {
-        font-size: 25px;
+        font-size: 15px;
         left: 71%;
     }
 
     .numero-tres {
+        font-size: 55px;
         left: 80%;
     }
 
     .container-paragrafo-tres {
         width: 80%;
-        font-size: 12px;
+        font-size: 9px;
         font-weight: 500;
     }
 
     .jornada {
-        padding: 180px 0 0 0;
+        padding: 100px 0 0 0;
         justify-content: center;
         align-items: center;
     }
@@ -984,47 +1013,75 @@ h1.titulo-jornada {
     }
 
     h1.titulo-jornada {
-        font-size: 30px;
+        font-size: 25px;
+    }
+
+    .img-vector {
+        height: 5px;
+        width: 200px;
     }
 
     .jornada-descricao-principal {
+        margin: 30px 0;
         left: 10%;
     }
 
     .jornada-descricao {
-        width: calc(42% - 90px);
-        height: 70px;
+        width: calc(40% - 30px);
+        height: 50px;
     }
 
     .jornada-imagens {
-        width: 20px;
+        width: 10px;
+        border-radius: 7px;
     }
 
     .jornada-descricao p {
-        width: 68%;
-        font-size: 12px;
+        width: 70%;
+        padding-right: 10px;
+        font-size: 9px;
     }
 
     .cadastro-seletivo {
         width: 36%;
         left: 31%;
+        height: 50px;
     }
 
     .cadastro-seletivo p {
-        font-size: 13px;
+        font-size: 8px;
+    }
+
+    .cadastro-seletivo img {
+        width: 15px;
     }
 
     .img-vector-um {
+        width: 120px;
         left: 41%;
+    }
+
+    .objetivos-principal {
+        margin: 0px 0;
+    }
+
+    .titulo-objetivos-principal {
+        margin: 40px 0 0 0;
+        font-size: 25px;
     }
 
     .objetivo-principais {
         width: 30%;
-        height: 230px;
+        height: 150px;
+    }
+
+    .titulo-dos-objetivos {
+        margin: 10px 0;
+        font-size: 22px;
     }
 
     .objetivo-principais p {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .rodape {
@@ -1033,29 +1090,31 @@ h1.titulo-jornada {
     }
 
     .rodape-logo {
-        width: 140px;
+        width: 100px;
     }
 
     .rodape-redes-sociais {
-        width: 18px;
+        width: 10px;
     }
 
     .rodape-titulo-direitos {
-        font-size: 8px;
+        font-size: 6px;
     }
 
     .rodape-processo-seletivo {
-        font-size: 12px;
-        margin: 0 -30px 0 80px;
+        font-size: 8px;
+        margin: 0 -10px 0 60px;
         width: 12%;
     }
 
     .rodape-links a {
-        font-size: 12px;
+        padding-left: 30px;
+        font-size: 10px;
     }
 
     .rodape-contato p {
-        font-size: 12px;
+        padding-left: 10px;
+        font-size: 10px;
     }
 }
 
@@ -1406,308 +1465,6 @@ h1.titulo-jornada {
 }
 
 /*está certo*/
-@media (max-width: 1000px) and (min-width: 900px) {
-    html, body {
-        width: 100%;
-    }
-
-    #cabecalho a {
-        font-size: 14px;
-        padding: 5px 25px;
-        margin: 0;
-    }
-
-    #cabecalho img {
-        width: 150px;
-    }
-
-    #formulario {
-        height: 550px;
-        width: 30%;
-        top: 25%;
-    }
-
-    .formulario-dados {
-        height: 150px;
-    }
-    
-    .titulo-formulario {
-        font-size: 15px;
-        padding: 20px 0 10px 0;
-        margin: 0 0 0 25px;
-    }
-
-    .paragrafo-dados {
-        font-size: 10px;
-        margin: 0 0 0 25px;
-    }
-
-    .input-nome {
-        width: 85%;
-        height: 30px;
-        background-color: var(--cor-branca);
-    }
-
-    .input-email {
-        width: 85%;
-        height: 30px;
-        background-color: var(--cor-branca);
-    }
-
-    .select-estado {
-        width: 85%;
-        height: 30px;
-        background-color: var(--cor-branca);
-    }
-
-    .formulario-conhecimento {
-        font-size: 11px;
-        height: 110px;
-    }
-
-    .paragrafo-conhecimento {
-        margin: 0;
-        padding: 15px 15px;
-        font-size: 11px;
-    }
-
-    .conhecimento {
-        margin-bottom: 7px;
-    }
-
-    .input-conhecimento[type="checkbox"] {
-        width: 12px;
-        height: 12px;
-    }
-
-    .formulario-experiencia {
-        padding-top: 8px;
-    }
-
-    .paragrafo-experiencia {
-        font-size: 10px;
-    }
-
-    .experiencia label {
-        font-size: 10px;
-    }
-
-    .experiencia-espaco label {
-        font-size: 10px;
-    }
-
-    .input-experiencia[type="checkbox"] {
-        width: 12px;
-        height: 12px;
-    }
-
-    p#paragrafo-obrigatorio {
-        margin: 10px 0 0 0;
-        font-size: 8px;
-    }
-
-    .btn-enviar {
-        padding: 0;
-        font-size: 14px;
-        height: 30px;
-    }
-
-    .paragrafo-termos {
-        font-size: 8px;
-    }
-
-    .problema-selector {
-        height: 500px;
-    }
-
-    .imagem-dev {
-        width: 45%;
-        top: -10%;
-        left: 10%;
-    }
-
-    .projeto-principal {
-        padding-top: 28%;
-        width: 30%;
-    }
-
-    .projeto-seletor {
-        height: 400px;
-    }
-
-    .projeto-titulo {
-        font-size: 30px;
-    }
-
-    .projeto-paragrafo {
-        width: 100%;
-        font-size: 12px;
-    }
-
-    .texto-problema-principal {
-        bottom: 500px;
-        width: 30%;
-    }
-
-    .img-container {
-        width: 40%;
-        left: 12%;
-    }
-
-    .texto-problema p {
-        font-size: 14px;
-    }
-
-    .texto-problema-profissionais {
-        font-size: 11px;
-    }
-
-    .texto-problema-exterior {
-        font-size: 11px;
-    }
-
-    .containers {
-        bottom: 440px;
-    }
-
-    .containers-solucao {
-        width: 300px;
-        height: 150px;
-    }
-
-    .container-titulo-um {
-        font-size: 25px;
-        left: 6%;
-    }
-
-    .numero-um {
-        left: 14%;
-    }
-
-    .container-paragrafo-um {
-        width: 85%;
-        font-size: 12px;
-        font-weight: 500;
-    } 
-
-    .container-titulo-dois {
-        font-size: 25px;
-        left: 40%;
-    }
-
-    .numero-dois {
-        left: 47%;
-    }
-
-    .container-paragrafo-dois {
-        width: 85%;
-        font-size: 12px;
-        font-weight: 500;
-    } 
-
-    .container-titulo-tres {
-        font-size: 25px;
-        left: 71%;
-    }
-
-    .numero-tres {
-        left: 80%;
-    }
-
-    .container-paragrafo-tres {
-        width: 80%;
-        font-size: 12px;
-        font-weight: 500;
-    }
-
-    .jornada {
-        padding: 180px 0 0 0;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .jornada-titulo {
-        position: relative;
-        left: 0%;
-    }
-
-    h1.titulo-jornada {
-        font-size: 30px;
-    }
-
-    .jornada-descricao-principal {
-        left: 10%;
-    }
-
-    .jornada-descricao {
-        width: calc(42% - 90px);
-        height: 70px;
-    }
-
-    .jornada-imagens {
-        width: 20px;
-    }
-
-    .jornada-descricao p {
-        width: 68%;
-        font-size: 12px;
-    }
-
-    .cadastro-seletivo {
-        width: 36%;
-        left: 31%;
-    }
-
-    .cadastro-seletivo p {
-        font-size: 13px;
-    }
-
-    .img-vector-um {
-        left: 41%;
-    }
-
-    .objetivo-principais {
-        width: 30%;
-        height: 230px;
-    }
-
-    .objetivo-principais p {
-        font-size: 12px;
-    }
-
-    .rodape {
-        margin: 40px 0 0 0;
-        height: 200px;
-    }
-
-    .rodape-logo {
-        width: 140px;
-    }
-
-    .rodape-redes-sociais {
-        width: 18px;
-    }
-
-    .rodape-titulo-direitos {
-        font-size: 8px;
-    }
-
-    .rodape-processo-seletivo {
-        font-size: 12px;
-        margin: 0 -30px 0 80px;
-        width: 12%;
-    }
-
-    .rodape-links a {
-        font-size: 12px;
-    }
-
-    .rodape-contato p {
-        font-size: 12px;
-    }
-}
-
-/*está certo*/
 @media (max-width: 899px) and (min-width: 801px){
     html, body {
         width: 100%;
@@ -2050,6 +1807,308 @@ h1.titulo-jornada {
 
     .rodape-contato p {
         font-size: 10px;
+    }
+}
+
+/*está certo*/
+@media (max-width: 999px) and (min-width: 901px) {
+    html, body {
+        width: 100%;
+    }
+
+    #cabecalho a {
+        font-size: 14px;
+        padding: 5px 25px;
+        margin: 0;
+    }
+
+    #cabecalho img {
+        width: 150px;
+    }
+
+    #formulario {
+        height: 550px;
+        width: 35%;
+        top: 25%;
+    }
+
+    .formulario-dados {
+        height: 150px;
+    }
+    
+    .titulo-formulario {
+        font-size: 15px;
+        padding: 20px 0 10px 0;
+        margin: 0 0 0 25px;
+    }
+
+    .paragrafo-dados {
+        font-size: 10px;
+        margin: 0 0 0 25px;
+    }
+
+    .input-nome {
+        width: 85%;
+        height: 30px;
+        background-color: var(--cor-branca);
+    }
+
+    .input-email {
+        width: 85%;
+        height: 30px;
+        background-color: var(--cor-branca);
+    }
+
+    .select-estado {
+        width: 85%;
+        height: 30px;
+        background-color: var(--cor-branca);
+    }
+
+    .formulario-conhecimento {
+        font-size: 11px;
+        height: 110px;
+    }
+
+    .paragrafo-conhecimento {
+        margin: 0;
+        padding: 15px 15px;
+        font-size: 11px;
+    }
+
+    .conhecimento {
+        margin-bottom: 7px;
+    }
+
+    .input-conhecimento[type="checkbox"] {
+        width: 12px;
+        height: 12px;
+    }
+
+    .formulario-experiencia {
+        padding-top: 8px;
+    }
+
+    .paragrafo-experiencia {
+        font-size: 10px;
+    }
+
+    .experiencia label {
+        font-size: 10px;
+    }
+
+    .experiencia-espaco label {
+        font-size: 10px;
+    }
+
+    .input-experiencia[type="checkbox"] {
+        width: 12px;
+        height: 12px;
+    }
+
+    p#paragrafo-obrigatorio {
+        margin: 10px 0 0 0;
+        font-size: 8px;
+    }
+
+    .btn-enviar {
+        padding: 0;
+        font-size: 14px;
+        height: 30px;
+    }
+
+    .paragrafo-termos {
+        font-size: 8px;
+    }
+
+    .problema-selector {
+        height: 500px;
+    }
+
+    .imagem-dev {
+        width: 45%;
+        top: -10%;
+        left: 10%;
+    }
+
+    .projeto-principal {
+        padding-top: 28%;
+        width: 30%;
+    }
+
+    .projeto-seletor {
+        height: 400px;
+    }
+
+    .projeto-titulo {
+        font-size: 30px;
+    }
+
+    .projeto-paragrafo {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .texto-problema-principal {
+        bottom: 500px;
+        width: 30%;
+    }
+
+    .img-container {
+        width: 40%;
+        left: 12%;
+    }
+
+    .texto-problema p {
+        font-size: 14px;
+    }
+
+    .texto-problema-profissionais {
+        font-size: 11px;
+    }
+
+    .texto-problema-exterior {
+        font-size: 11px;
+    }
+
+    .containers {
+        bottom: 440px;
+    }
+
+    .containers-solucao {
+        width: 300px;
+        height: 150px;
+    }
+
+    .container-titulo-um {
+        font-size: 25px;
+        left: 6%;
+    }
+
+    .numero-um {
+        left: 14%;
+    }
+
+    .container-paragrafo-um {
+        width: 85%;
+        font-size: 12px;
+        font-weight: 500;
+    } 
+
+    .container-titulo-dois {
+        font-size: 25px;
+        left: 40%;
+    }
+
+    .numero-dois {
+        left: 47%;
+    }
+
+    .container-paragrafo-dois {
+        width: 85%;
+        font-size: 12px;
+        font-weight: 500;
+    } 
+
+    .container-titulo-tres {
+        font-size: 25px;
+        left: 71%;
+    }
+
+    .numero-tres {
+        left: 80%;
+    }
+
+    .container-paragrafo-tres {
+        width: 80%;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .jornada {
+        padding: 180px 0 0 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .jornada-titulo {
+        position: relative;
+        left: 0%;
+    }
+
+    h1.titulo-jornada {
+        font-size: 27px;
+    }
+
+    .jornada-descricao-principal {
+        left: 10%;
+    }
+
+    .jornada-descricao {
+        width: calc(42% - 90px);
+        height: 70px;
+    }
+
+    .jornada-imagens {
+        width: 20px;
+    }
+
+    .jornada-descricao p {
+        width: 68%;
+        font-size: 12px;
+    }
+
+    .cadastro-seletivo {
+        width: 36%;
+        left: 31%;
+    }
+
+    .cadastro-seletivo p {
+        font-size: 13px;
+    }
+
+    .img-vector-um {
+        left: 41%;
+    }
+
+    .objetivo-principais {
+        width: 30%;
+        height: 230px;
+    }
+
+    .objetivo-principais p {
+        font-size: 12px;
+    }
+
+    .rodape {
+        margin: 40px 0 0 0;
+        height: 200px;
+    }
+
+    .rodape-logo {
+        width: 140px;
+    }
+
+    .rodape-redes-sociais {
+        width: 18px;
+    }
+
+    .rodape-titulo-direitos {
+        font-size: 8px;
+    }
+
+    .rodape-processo-seletivo {
+        font-size: 12px;
+        margin: 0 -30px 0 80px;
+        width: 12%;
+    }
+
+    .rodape-links a {
+        font-size: 12px;
+    }
+
+    .rodape-contato p {
+        font-size: 12px;
     }
 }
 
