@@ -10,11 +10,29 @@
     <header>
         <menu id="cabecalho">   
             <img src="Assets_Netuno/assets/logo.png" alt="logo-neturno" class="logo">
-            <a href="#projeto" class="cabecalho-anco">O Projeto</a>
-            <a href="#problema" class="cabecalho-anco">O Problema</a>
-            <a href="#jornada" class="cabecalho-anco"> Sua Jornada</a>
-            <a href="#objetivos" class="cabecalho-anco"> Objetivos</a>
-            <a href="#formulario" class="processoseletivo-anco"> Processo Seletivo</a>
+            <div class="nav-list">
+              <ul>
+                <li class="nav-item"><a href="#projeto" class="cabecalho-anco nav-link">O Projeto</a></li>
+                <li class="nav-item"><a href="#problema" class="cabecalho-anco nav-link">O Problema</a></li>
+                <li class="nav-item"><a href="#jornada" class="cabecalho-anco nav-link"> Sua Jornada</a></li>
+                <li class="nav-item"><a href="#objetivos" class="cabecalho-anco nav-link"> Objetivos</a></li>
+                <li class="nav-item"><a href="#formulario" class="processoseletivo-anco nav-link"> Processo Seletivo</a></li>      
+            </ul>
+          </div>
+
+          <div class="mobile-menu-icon">
+            <button onclick="menuShow()"><img class="icon" src="Assets_Netuno/icones/menu_white_36dp.svg" alt="menu-icone"></button>
+          </div>
+
+          <div class="mobile-menu">
+            <ul>
+              <li class="nav-item"><a href="#projeto" class="cabecalho-anco nav-link">O Projeto</a></li>
+              <li class="nav-item"><a href="#problema" class="cabecalho-anco nav-link">O Problema</a></li>
+              <li class="nav-item"><a href="#jornada" class="cabecalho-anco nav-link"> Sua Jornada</a></li>
+              <li class="nav-item"><a href="#objetivos" class="cabecalho-anco nav-link"> Objetivos</a></li>
+              <li class="nav-item"><a href="#formulario" class="processoseletivo-anco nav-link"> Processo Seletivo</a></li>      
+            </ul>
+          </div>
         </menu>
     </header>
 
@@ -295,5 +313,6 @@
         </div>
       </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </htm>
