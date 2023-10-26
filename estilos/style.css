@@ -384,19 +384,19 @@ p#paragrafo-obrigatorio {
 .projeto-principal {
     width: 40%;
     position: relative;
-    bottom: 350px;
+    bottom: 500px;
     left: 58%;
 }
 
 .projeto-titulo {
-    font-size: 35px;
+    font-size: 45px;
     color: var(--cor-azul-light);
     font-weight: 600;
 }
 
 .projeto-paragrafo {
     padding: 0;
-    font-size: 11px;
+    font-size: 22px;
     color: var(--cor-branca);
     font-weight: 300;
 }
@@ -776,6 +776,9 @@ h1.titulo-jornada {
     font-weight: 800;
 } 
 
+
+
+/*está certo*/
 @media (max-width: 600px) and (min-width: 501px){
     html, body {
         width: 100%;
@@ -956,12 +959,17 @@ h1.titulo-jornada {
     }
 
     .projeto-seletor {
-        height: 800px;
+        height: 900px;
+    }
+
+    .projeto-principal {
+        width: 40%;
+        bottom: 300px;
     }
 
     .imagem-dev {
         width: 50%;
-        padding-top: 650px;
+        padding-top: 700px;
         left: 5%;
     }
 
@@ -1358,7 +1366,7 @@ h1.titulo-jornada {
     }
 
     .projeto-seletor {
-        height: 800px;
+        height: 880px;
     }
 
     .imagem-dev {
@@ -1368,7 +1376,6 @@ h1.titulo-jornada {
     }
 
     .projeto-principal {
-        padding-top: 220px;
         width: 35%;
     }
 
@@ -1646,7 +1653,7 @@ h1.titulo-jornada {
 
     #formulario {
         height: 450px;
-        width: 32%;  
+        width: 38%;  
         top: 19%; 
     }
 
@@ -1754,7 +1761,7 @@ h1.titulo-jornada {
     }
 
     .projeto-seletor {
-        height: 300px;
+        height: 350px;
     }
 
     .imagem-dev {
@@ -1763,7 +1770,6 @@ h1.titulo-jornada {
     }
 
     .projeto-principal {
-        padding-top: 220px;
         width: 30%;
     }
 
@@ -1907,11 +1913,11 @@ h1.titulo-jornada {
     }
 
     .cadastro-seletivo p {
-        font-size: 10px;
+        font-size: 9px;
     }
 
     .cadastro-seletivo img {
-        width: 20px;
+        width: 15px;
     }
 
     .img-vector-um {
@@ -2143,7 +2149,7 @@ h1.titulo-jornada {
     }
 
     .projeto-seletor {
-        height: 300px;
+        height: 400px;
     }
 
     .imagem-dev {
@@ -2152,7 +2158,6 @@ h1.titulo-jornada {
     }
 
     .projeto-principal {
-        padding-top: 220px;
         width: 30%;
     }
 
@@ -2369,9 +2374,10 @@ h1.titulo-jornada {
         width: 100%;
     }
 
-    #cabecalho a {
-        font-size: 14px;
-        padding: 5px 25px;
+    #cabecalho > .nav-list > ul > li > a {
+        font-size: 15px;
+        margin: 0 20px;
+        padding: 5px 15px;
         margin: 0;
     }
 
@@ -2485,7 +2491,7 @@ h1.titulo-jornada {
     }
 
     .projeto-principal {
-        padding-top: 28%;
+        bottom: 350px;
         width: 30%;
     }
 
@@ -2671,9 +2677,10 @@ h1.titulo-jornada {
         width: 100%;
     }
 
-    #cabecalho a {
-        font-size: 16px;
-        padding: 5px 25px;
+    #cabecalho > .nav-list > ul > li > a {
+        font-size: 15px;
+        margin: 0 20px;
+        padding: 5px 15px;
         margin: 0;
     }
 
@@ -2787,7 +2794,7 @@ h1.titulo-jornada {
     }
 
     .projeto-principal {
-        padding-top: 20%;
+        bottom: 400px;
         width: 30%;
     }
 
@@ -2973,9 +2980,10 @@ h1.titulo-jornada {
         width: 100%;
     }
 
-    #cabecalho a {
-        font-size: 16px;
-        padding: 5px 25px;
+    #cabecalho > .nav-list > ul > li > a {
+        font-size: 17px;
+        margin: 0 25px;
+        padding: 5px 30px;
         margin: 0;
     }
 
@@ -3089,8 +3097,8 @@ h1.titulo-jornada {
     }
 
     .projeto-principal {
-        padding-top: 20%;
-        width: 30%;
+        bottom: 450px;
+        width: 31%;
     }
 
     .projeto-principal p {
@@ -3283,14 +3291,15 @@ h1.titulo-jornada {
         width: 100%;
     }
 
-    #cabecalho a {
+    #cabecalho > .nav-list > ul > li > a {
         font-size: 17px;
+        margin: 0 25px;
         padding: 5px 30px;
         margin: 0;
     }
 
     #cabecalho img {
-        width: 170px;
+        width: 150px;
     }
 
     #cabecalho .processoseletivo-anco {
@@ -3400,7 +3409,7 @@ h1.titulo-jornada {
     }
 
     .projeto-principal {
-        padding-top: 10%;
+        bottom: 520px;
         width: 30%;
     }
 
@@ -3728,7 +3737,7 @@ h1.titulo-jornada {
     }
 
     .projeto-principal {
-        padding-top: 6%;
+        bottom: 560px;
         width: 30%;
     }
 
@@ -4066,7 +4075,7 @@ h1.titulo-jornada {
     }
 
     .projeto-principal {
-        padding-top: 6%;
+        bottom: 585px;
         width: 31%;
     }
 
@@ -4074,7 +4083,7 @@ h1.titulo-jornada {
         font-size: 17px;
     }
 
-    .projeto-selector {
+    .projeto-seletor {
         height: 500px;
     }
 
@@ -4409,7 +4418,7 @@ h1.titulo-jornada {
     }
 
     .projeto-principal {
-        padding-top: 1%;
+        bottom: 585px;
         width: 31%;
     }
 
@@ -4417,7 +4426,7 @@ h1.titulo-jornada {
         font-size: 17px;
     }
 
-    .projeto-selector {
+    .projeto-seletor {
         height: 500px;
     }
 
@@ -4755,7 +4764,7 @@ h1.titulo-jornada {
     }
 
     .projeto-principal {
-        padding-top: 1%;
+        bottom: 680px;
         width: 31%;
     }
 
@@ -4763,8 +4772,8 @@ h1.titulo-jornada {
         font-size: 18px;
     }
 
-    .projeto-selector {
-        height: 500px;
+    .projeto-seletor {
+        height: 600px;
     }
 
     .projeto-titulo {
