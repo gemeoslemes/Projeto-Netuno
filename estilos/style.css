@@ -852,7 +852,7 @@ h1.titulo-jornada {
         height: 450px;
         width: 50%;  
         left: 28%;
-        top: 55%; 
+        top: 65%; 
     }
 
     .formulario-dados {
@@ -1376,7 +1376,8 @@ h1.titulo-jornada {
     }
 
     .projeto-principal {
-        width: 35%;
+        width: 40%;
+        bottom: 350px;
     }
 
     .projeto-titulo {
@@ -1761,7 +1762,7 @@ h1.titulo-jornada {
     }
 
     .projeto-seletor {
-        height: 350px;
+        height: 400px;
     }
 
     .imagem-dev {
@@ -1770,7 +1771,8 @@ h1.titulo-jornada {
     }
 
     .projeto-principal {
-        width: 30%;
+        width: 40%;
+        bottom: 300px;
     }
 
     .projeto-titulo {
@@ -2158,9 +2160,12 @@ h1.titulo-jornada {
     }
 
     .projeto-principal {
-        width: 30%;
+        width: 40%;
+        position: relative;
+        bottom: 300px;
+        left: 58%;
     }
-
+    
     .projeto-titulo {
         font-size: 22px;
     }
