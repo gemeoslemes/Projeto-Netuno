@@ -782,8 +782,10 @@ h1.titulo-jornada {
         margin: 0;
         padding: 0;
     }
+
     html, body {
         width: 100%;
+        overflow-x: hidden;
     }
 
     .nav-item {
@@ -848,6 +850,7 @@ h1.titulo-jornada {
     }
 
     #formulario {
+        position: relative;
         height: 720px;
         width: 90%;
         left: 5%;
@@ -963,7 +966,7 @@ h1.titulo-jornada {
     }
 
     .projeto-seletor {
-        height: 1500px;
+        height: 900px;
     }
 
     .projeto-principal {
@@ -974,7 +977,7 @@ h1.titulo-jornada {
 
     .imagem-dev {
         width: 90%;
-        padding-top: 860px;
+        padding-top: 300px;
         left: 5%;
     }
 
